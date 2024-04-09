@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    min-width: 520px;
+}
+
+.clear{
+    clear: both;
+}
+
+/* começo da barra de navegação */
+
+nav{
+    background: url(img/background\ nav.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav #logotipo img{
+    width: 200px;
+    height: 120px;
+    margin-left: 30px;
+    padding: 15px;
+    float: left;
+}
+
+#lista{
+    float: right;
+    line-height: 160px;
+    margin-right: 30px;
+}
+
+#lista ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#lista li{
+    display: inline-block;
+    list-style: none;
+}
+
+#lista  li a{
+    color: #ffffffc0;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#lista li a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* fim da barra de navegação */
+
+#projetos .projeto1{
+    margin-top: 20px;
+}
+
+#projetos .projeto1 .placas1 .placasolar{
+    margin-top: 50px;
+    width: 40%;
+    height: 40%;
+    float: left;
+}
+
+.descrição{
+    margin-top: 5%;
+    float: left;
+    width: 50%;
+}
+
+.placas1 h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.placas1 .descrição1{
+    font-size:2em;
+    margin-top:3%;
+    margin-left: 0.5em;
+    opacity: 0.6;
+}
+
+.descrição .descrição1 strong{
+    position: relative;
+    top: 30;
+    font-size:0.5em;
+    opacity: 0.6;
+}
+
+.descrição #valor{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.descrição #valor p{
+    line-height: 60px;
+}
+
+.descrição #valor .valorfake{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: #080808d0;
+    display: inline;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.descrição #valor .valor{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    color: #0000ff;
+    display: inline;
+}
+
+#buy .comprar{    
+    border: 1px solid red;
+    width: 155px;
+    height: 60px;
+    border: 1px solid #55c063;
+    background: #55c063;
+    border-radius: 3ch;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 1em;
+    margin-top: 20px;
+}
+
+#buy .comprar:hover{
+    background-color: #0000ffe3;
+    border: 1px solid #0000ffe3;
+}
+
+#buy .comprar a{
+    background: url(img/carrinho.png) no-repeat center left;
+    padding: 20px 0px;
+    padding-left:65px ;
+    line-height: 60px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+#buy .comprar a:hover{
+    background: url(img/carrinho\ branco.png) no-repeat center left;
+    color: #ffffffe7;
+}
+
+
+
+
+
